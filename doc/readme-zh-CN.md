@@ -56,7 +56,7 @@ EasyOCR 4.X 新架构上线，最新版本 4.1.0。
 
 - `TextMode`：EasyOCR 识别模式列表，支持多种类型的文字识别模式枚举选择。
 
-- `CleanType`：验证码和普通图片过滤清理类型枚举。持NONE不清理、CAPTCHA验证码清理、TEXT文字清理及票据等图像清理算法。
+- `CleanType`：验证码和普通图片过滤清理类型枚举。支持NONE不清理、CAPTCHA验证码清理、TEXT文字清理及票据等图像清理算法。
 
 
 ## EasyOCR Demo
