@@ -7,7 +7,7 @@ EasyOCR is a Java language using OCR recognition engine (based Tesseract). By me
 
 EasyOCR not only provide services for consumers, but mainly oriented to provide localized development SDK integration with C / S, B / S and Android mobile terminal native integration projects.
 
-EasyOCR 4.X new architecture on the line, the latest version 4.1.0.
+EasyOCR 4.X new architecture on the line, the latest version 4.2.0.
 
 
 ## Main feature

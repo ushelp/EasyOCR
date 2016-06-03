@@ -6,7 +6,7 @@ EasyOCR 是一个使用 Java 语言实现的 OCR 识别引擎（基于Tesseract�
 
 EasyOCR不仅可以为消费者提供服务，更主要面向开发，能够提供本地化的开发SDK集成，与 C/S，B/S 及 Android 移动端项目进行原生集成。
 
-EasyOCR 4.X 新架构上线，最新版本 4.1.0。
+EasyOCR 4.X 新架构上线，最新版本 4.2.0。
 
 
 
