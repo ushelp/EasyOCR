@@ -203,11 +203,17 @@ Phone support is provided 30 minutes or 1 hour IM (QQ, MSN ...) consultation, an
 You can consult comprising:
 
 1. EasyOCR related technical consultancy
+
 2. EasyOCR assist problem during use
+
 3. EasyOCR Other
+
 4. OCR related pattern recognition analysis service
+
 5. OCR related business consulting and solutions provided
+
 6. OCR technology and consulting experience
+
 7. OCR Other 
 
 
