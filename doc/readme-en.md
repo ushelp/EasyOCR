@@ -201,6 +201,7 @@ Since the current OCR engine field, and mainstream commercial engines contrast, 
 Phone support is provided 30 minutes or 1 hour IM (QQ, MSN ...) consultation, and the day's mail traffic support.
 
 You can consult comprising:
+
 1. EasyOCR related technical consultancy
 2. EasyOCR assist problem during use
 3. EasyOCR Other
