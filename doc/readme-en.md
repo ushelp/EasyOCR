@@ -187,7 +187,32 @@ Since the current OCR engine field, and mainstream commercial engines contrast, 
 > For these scenarios and fields, the recognition result is Schrodinger's cat box, before human intervention to confirm the state is superimposed, both correct and not correct. So if in the case of defined scenes can not be achieved, but need to be 100 percent accurate results through OCR recognition, then in philosophy and logic is primarily a problem.
 >
 > A better solution behind often require more complex work, such as image cleanup, feature analysis, aids etc. knowledge and skills. OCR sometimes like a child, to have tolerance, also need guidance, correction, training, let him do better.
->
+> 
+
+
+## EasyOCR Technical Advisory Services
+
+**Price**：$ 100
+
+**Billing period**：One day
+
+**Service Content**：
+
+Phone support is provided 30 minutes or 1 hour IM (QQ, MSN ...) consultation, and the day's mail traffic support.
+
+You can consult comprising:
+1. EasyOCR related technical consultancy
+2. EasyOCR assist problem during use
+3. EasyOCR Other
+4. OCR related pattern recognition analysis service
+5. OCR related business consulting and solutions provided
+6. OCR technology and consulting experience
+7. OCR Other 
+
+
+
+
+
 
 ## END
 ### [官方主页](http://www.easyproject.cn/easyocr/zh-cn/index.jsp '官方主页')

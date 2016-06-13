@@ -21,6 +21,46 @@ EasyOCR not only provide services for consumers, but mainly oriented to provide 
 Since the current OCR engine field, and mainstream commercial engines contrast, EasyOCR with SDK integration capabilities, with programming flexibility, comprehensive, accurate identification and performance, has provided engine support for global enterprises. In Chinese recognition and other fields, after comparing other commercial engines, EasyOCR have greater flexibility and recognition rate. Currently in the field of business services, including banking, reptiles application, pay, large data processing and data analysis in the field of online games graphics processing (United Kingdom), and so on.
 
 
+## EasyOCR 相关技术咨询服务
+
+**价格**：￥200
+
+**计费周期**：一天
+
+**服务内容**：
+
+提供 30 分钟电话支持或 1 小时的 IM(QQ, MSN...) 咨询，及当天的邮件往来支持。
+
+可以咨询包含：
+1. EasyOCR 相关的技术咨询
+2. EasyOCR 使用过程中的问题协助
+3. EasyOCR 其他
+4. OCR 相关图形的识别分析服务
+5. OCR 相关业务解决方案咨询与提供
+6. OCR 技术与经验咨询
+7. OCR 领域其他
+
+
+## EasyOCR Technical Advisory Services
+
+**Price**：￥200
+
+**Billing period**：One day
+
+**Service Content**：
+
+Phone support is provided 30 minutes or 1 hour IM (QQ, MSN ...) consultation, and the day's mail traffic support.
+
+You can consult comprising:
+1. EasyOCR related technical consultancy
+2. EasyOCR assist problem during use
+3. EasyOCR Other
+4. OCR related pattern recognition analysis service
+5. OCR related business consulting and solutions provided
+6. OCR technology and consulting experience
+7. OCR Other 
+ 
+
 ### [官方主页](http://www.easyproject.cn/easyocr/zh-cn/index.jsp '官方主页')
 
 [留言评论](http://www.easyproject.cn/easyocr/zh-cn/index.jsp#donation '留言评论')
