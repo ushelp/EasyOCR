@@ -93,16 +93,22 @@ Email：<inthinkcolor@gmail.com>
 
 [http://www.easyproject.cn](http://www.easyproject.cn "EasyProject Home")
 
+
+
+
+**支付宝钱包扫一扫捐助：**
+
+我们相信，每个人的点滴贡献，都将是推动产生更多、更好免费开源产品的一大步。
+
+**感谢慷慨捐助，以支持服务器运行和鼓励更多社区成员。**
+
 <img alt="支付宝钱包扫一扫捐助" src="http://www.easyproject.cn/images/s.png"  title="支付宝钱包扫一扫捐助"  height="256" width="256"></img>
 
-<p>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="inthinkcolor@gmail.com">
-<input type="hidden" name="item_name" value="EasyProject development Donation">
-<input type="hidden" name="no_note" value="1">
-<input type="hidden" name="tax" value="0">
-<input type="image" src="http://www.easyproject.cn/images/paypaldonation5.jpg"  title="PayPal donation"  border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-</form>
-</P>
+
+
+We believe that the contribution of each bit by bit, will be driven to produce more and better free and open source products a big step.
+
+**Thank you donation to support the server running and encourage more community members.**
+
+[![PayPal](http://www.easyproject.cn/images/paypaldonation5.jpg)](https://www.paypal.me/easyproject/10 "Make payments with PayPal - it's fast, free and secure!")
 
