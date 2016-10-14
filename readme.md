@@ -6,15 +6,16 @@
 ### 中文
 
 
-EasyOCR 是一个使用 Java 语言实现的 OCR 识别引擎（基于Tesseract）。借助几个简单的API，即能使用Java语言完成图片内容识别工作。并集成了图片清理、识别 CAPTCHA 验证码图片，票据等内容的一体化工作。
+EasyOCR 是一个使用 Java 语言实现的 OCR 识别引擎（基于Tesseract）。借助几个简单的 API，即能使用Java语言完成图片内容识别工作。并集成了**图片清理**、**识别 CAPTCHA 验证码图片**，**票据**等内容的一体化工作。EasyOCR 引擎支持**扩展插件编程**，并提供 **ETD 模板**支持，提供图形化 ETD 模板设计工具(**EasyTemplateDesigner GUI**)。
 
-EasyOCR不仅可以为消费者提供服务，更主要面向开发，能够提供本地化的开发SDK集成，与 C/S，B/S 及 Android 移动端项目进行原生集成。
+EasyOCR 不仅可以为消费者提供服务，更主要面向开发，能够提供本地化的开发 SDK 集成，与 C/S，B/S 及 Android 移动端项目进行原生集成。
 
-由于在当前OCR引擎领域，与主流商业引擎对比，EasyOCR具备SDK集成能力，具备编程灵活性，功能全面，识别准确和性能卓越，目前已经为全球多家企业提供了引擎支持。在中文识别等领域，经过对比其他商业引擎，EasyOCR具有更高灵活性及识别率。目前商业服务的领域包括银行，爬虫应用，支付，大数据处理以及在线游戏图形数据分析处理（英国）等等领域。
+
+由于在当前OCR引擎领域，与主流商业引擎对比，EasyOCR 具备 SDK 集成能力，具备编程灵活性，功能全面，识别准确和性能卓越，目前已经为全球多家企业提供了引擎支持。在中文识别等领域，经过对比其他商业引擎，EasyOCR 具有更高灵活性及识别率。目前商业服务的领域包括银行，爬虫应用，支付，大数据处理以及在线游戏图形数据分析处理（英国）等等领域。
 
 ### English
 
-EasyOCR is a Java language using OCR recognition engine (based Tesseract). By means of a few simple API, the Java language can be used to complete the picture content identification work. And integrated image cleanup, recognition CAPTCHA CAPTCHA image, notes and other content integration efforts.
+EasyOCR is a Java language using OCR recognition engine (based Tesseract). By means of a few simple API, the Java language can be used to complete the picture content identification work. And integrated **image cleanup**, **recognition CAPTCHA image**, **bill notes** and other content integration efforts. EasyOCR engine supports **plugin programming**, **ETD templates** support, provide a graphical ETD template design tools (**EasyTemplateDesigner GUI**).
 
 EasyOCR not only provide services for consumers, but mainly oriented to provide localized development SDK integration with C/S, B/S and Android mobile terminal native integration projects.
 
