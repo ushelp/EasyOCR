@@ -47,7 +47,7 @@ If you have more comments, suggestions or ideas, please contact me.
 
 
 
-
+<div style="display:none">
 ## EasyOCR 相关技术咨询服务
 
 **价格**：￥200
@@ -101,7 +101,7 @@ You can consult comprising:
 
 7. OCR Other 
  
-
+</div>
 
 
 ## End

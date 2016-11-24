@@ -189,7 +189,7 @@ Since the current OCR engine field, and mainstream commercial engines contrast, 
 > A better solution behind often require more complex work, such as image cleanup, feature analysis, aids etc. knowledge and skills. OCR sometimes like a child, to have tolerance, also need guidance, correction, training, let him do better.
 > 
 
-
+<div style="display:none">
 ## EasyOCR Technical Advisory Services
 
 **Price**：$ 100
@@ -216,7 +216,7 @@ You can consult comprising:
 
 7. OCR Other 
 
-
+</div>
 
 
 
