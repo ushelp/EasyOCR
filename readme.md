@@ -47,63 +47,6 @@ If you have more comments, suggestions or ideas, please contact me.
 
 
 
-<div style="display:none">
-## EasyOCR 相关技术咨询服务
-
-**价格**：￥200
-
-**计费周期**：一天
-
-**服务内容**：
-
-提供 30 分钟电话支持或 1 小时的 IM(QQ, MSN...) 咨询，及当天的邮件往来支持。
-
-可以咨询包含：
-
-1. EasyOCR 相关的技术咨询
-
-2. EasyOCR 使用过程中的问题协助
-
-3. EasyOCR 其他
-
-4. OCR 相关图形的识别分析服务
-
-5. OCR 相关业务解决方案咨询与提供
-
-6. OCR 技术与经验咨询
-
-7. OCR 领域其他
-
-
-## EasyOCR Technical Advisory Services
-
-**Price**：$50
-
-**Billing period**：One day
-
-**Service Content**：
-
-Phone support is provided 30 minutes or 1 hour IM (QQ, MSN ...) consultation, and the day's mail traffic support.
-
-You can consult comprising:
-
-1. EasyOCR related technical consultancy
-
-2. EasyOCR assist problem during use
-
-3. EasyOCR Other
-
-4. OCR related pattern recognition analysis service
-
-5. OCR related business consulting and solutions provided
-
-6. OCR technology and consulting experience
-
-7. OCR Other 
- 
-</div>
-
-
 ## End
 
 Email：<inthinkcolor@gmail.com>

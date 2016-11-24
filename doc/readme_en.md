@@ -189,34 +189,6 @@ Since the current OCR engine field, and mainstream commercial engines contrast, 
 > A better solution behind often require more complex work, such as image cleanup, feature analysis, aids etc. knowledge and skills. OCR sometimes like a child, to have tolerance, also need guidance, correction, training, let him do better.
 > 
 
-<div style="display:none">
-## EasyOCR Technical Advisory Services
-
-**Price**：$ 100
-
-**Billing period**：One day
-
-**Service Content**：
-
-Phone support is provided 30 minutes or 1 hour IM (QQ, MSN ...) consultation, and the day's mail traffic support.
-
-You can consult comprising:
-
-1. EasyOCR related technical consultancy
-
-2. EasyOCR assist problem during use
-
-3. EasyOCR Other
-
-4. OCR related pattern recognition analysis service
-
-5. OCR related business consulting and solutions provided
-
-6. OCR technology and consulting experience
-
-7. OCR Other 
-
-</div>
 
 
 
