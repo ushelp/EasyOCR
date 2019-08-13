@@ -192,41 +192,27 @@ EasyOCR 项目自发布以来，收到来自国内外，各个行业朋友的咨
 
 
 
-## END
-### [官方主页](http://www.easyproject.cn/easyocr/zh-cn/index.jsp '官方主页')
-
-[留言评论](http://www.easyproject.cn/easyocr/zh-cn/index.jsp#donation '留言评论')
-
-如果您有更好意见，建议或想法，请联系我。
-
-### [The official home page](http://www.easyproject.cn/easyocr/en/index.jsp 'The official home page')
-
-[Comments](http://www.easyproject.cn/easyocr/en/index.jsp#donation 'Comments')
-
-If you have more comments, suggestions or ideas, please contact me.
-
-
+## End
 
 Email：<inthinkcolor@gmail.com>
 
 [http://www.easyproject.cn](http://www.easyproject.cn "EasyProject Home")
 
 
+**Donation/捐助:**
 
+<a href="http://www.easyproject.cn/donation">
+<img alt="
+支付宝/微信/QQ/云闪付/PayPal 扫码支付" src="http://www.easyproject.cn/thanks/donation.png"  title="支付宝/微信/QQ/云闪付/PayPal 扫码支付"  height="320" width="320"></img></a>
+<div>支付宝/微信/QQ/云闪付/PayPal</div>
 
-
-**支付宝钱包扫一扫捐助：**
+<br/>
 
 我们相信，每个人的点滴贡献，都将是推动产生更多、更好免费开源产品的一大步。
 
 **感谢慷慨捐助，以支持服务器运行和鼓励更多社区成员。**
 
-<img alt="支付宝钱包扫一扫捐助" src="http://www.easyproject.cn/images/s.png"  title="支付宝钱包扫一扫捐助"  height="256" width="256"></img>
-
-
-
 We believe that the contribution of each bit by bit, will be driven to produce more and better free and open source products a big step.
 
 **Thank you donation to support the server running and encourage more community members.**
 
-[![PayPal](http://www.easyproject.cn/images/paypaldonation5.jpg)](https://www.paypal.me/easyproject/10 "Make payments with PayPal - it's fast, free and secure!")
