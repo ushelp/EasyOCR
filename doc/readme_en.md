@@ -67,7 +67,7 @@ EasyOCR 5.X new architecture on the line, the latest version 5.1.0.
 ```JAVA
 EasyOCR e=new EasyOCR();
 //Direct recognition images Content
-System.out.println(e.discern("images/demo_eurotext.png")); 
+System.out.println(e.recognize("images/demo_eurotext.png")); 
 ```
 
 ### 2. CAPTCHA recognition Demo
@@ -76,9 +76,9 @@ System.out.println(e.discern("images/demo_eurotext.png"));
 
 ```JAVA
 // Direct recognition CAPTCHA images Content
-System.out.println(e.discernAutoCleanImage("images/img_INTERFERENCE_LINE.png",ImageType.CAPTCHA_INTERFERENCE_LINE)); 
+System.out.println(e.recognizeAutoCleanImage("images/img_INTERFERENCE_LINE.png",ImageType.CAPTCHA_INTERFERENCE_LINE)); 
 // CAPTCHA image, through: general cleaning, automatic integration process after deformation scene, identify the content
-System.out.println(e.discernAutoCleanImage("images/img_NORMAL.jpg", ImageType.CAPTCHA_NORMAL, 1.6, 0.7));
+System.out.println(e.recognizeAutoCleanImage("images/img_NORMAL.jpg", ImageType.CAPTCHA_NORMAL, 1.6, 0.7));
 ```
 
 
@@ -86,7 +86,7 @@ Tip: verification code image suitable deformation helps to improve the recogniti
 ```JAVA
 for(double imageWidthRatio=0.8;imageWidthRatio<=2;imageWidthRatio+=0.1){
 	for (double imageHeightRatio = 0.8;imageHeightRatio<=2.8;imageHeightRatio+=0.1) {
-		System.out.println(e.discernAndAutoCleanImage("images/d.jpg",ImageType.CAPTCHA_NORMAL,imageWidthRatio,imageHeightRatio));
+		System.out.println(e.recognizeAndAutoCleanImage("images/d.jpg",ImageType.CAPTCHA_NORMAL,imageWidthRatio,imageHeightRatio));
 	}
 }
 ```
@@ -98,25 +98,25 @@ EasyOCR ocr = new EasyOCR();
 System.out.println("###### Chinese meeting notice Content recognition ######");
 ocr.setAmendPath("amend_chi.txt"); // Chinese amend
 ocr.setLanguage(Language.CHI_SIM); // Chinese-Simple
-String res=ocr.discern("images/bank/notice.tif");
+String res=ocr.recognize("images/bank/notice.tif");
 System.out.println(res);
 
 System.out.println("###### Multilingual hybrid recognition ######");
 ocr.setLanguage(Language.multiLanguage(Language.ENG,Language.CHI_SIM)); // Multilingual hybrid
-String res2=ocr.discern("images/bank/bill2.tif");
+String res2=ocr.recognize("images/bank/bill2.tif");
 System.out.println(res2);
 
 System.out.println("###### Recognition Based on EMD template Chinese bank notes ######");
 ocr.setLanguage(Language.CHI_SIM); // Chinese-Simple
 ocr.setTextMode(TextMode.UNIFORM_TEXT); // Uniform text
-List<String> res3=ocr.discernByTemplate("images/bank/bill3.jpg", "images/bank/bill.etd", ImageType.BILL_NORMAL);
+List<String> res3=ocr.recognizeByTemplate("images/bank/bill3.jpg", "images/bank/bill.etd", ImageType.BILL_NORMAL);
 System.out.println(res3);
 
 System.out.println("###### Cleanup digital content recognition with pictures ######");
 ocr.setLanguage(Language.ENG); // English
 ocr.setCharList("0123456789"); // Char whitelist
 ocr.setTextMode(TextMode.SINGLE_LINE_TEXT); // Single line text
-String res4=ocr.discernAutoCleanImage("images/bank/example4.jpg",ImageType.TEXT_BOLD_BLAK);
+String res4=ocr.recognizeAutoCleanImage("images/bank/example4.jpg",ImageType.TEXT_BOLD_BLAK);
 System.out.println(res4);
 ```
 
