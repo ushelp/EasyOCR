@@ -67,7 +67,7 @@ EasyOCR 5.X 新架构上线，最新版本 5.1.0。
 ```JAVA
 EasyOCR e=new EasyOCR();
 //直接识别图片内容
-System.out.println(e.discern("images/demo_eurotext.png")); 
+System.out.println(e.recognize("images/demo_eurotext.png")); 
 ```
 
 ### 2. 验证码识别Demo
@@ -76,9 +76,9 @@ System.out.println(e.discern("images/demo_eurotext.png"));
 
 ```JAVA
 //直接识别验证码图片内容
-System.out.println(e.discernAutoCleanImage("images/img_INTERFERENCE_LINE.png",ImageType.CAPTCHA_INTERFERENCE_LINE)); 
+System.out.println(e.recognizeAutoCleanImage("images/img_INTERFERENCE_LINE.png",ImageType.CAPTCHA_INTERFERENCE_LINE)); 
 //验证码图片，经过：普通清理、形变场景自动一体化处理后，识别内容
-System.out.println(e.discernAutoCleanImage("images/img_NORMAL.jpg", ImageType.CAPTCHA_NORMAL, 1.6, 0.7));
+System.out.println(e.recognizeAutoCleanImage("images/img_NORMAL.jpg", ImageType.CAPTCHA_NORMAL, 1.6, 0.7));
 ```
 
 
@@ -86,7 +86,7 @@ System.out.println(e.discernAutoCleanImage("images/img_NORMAL.jpg", ImageType.CA
 ```JAVA
 for(double imageWidthRatio=0.8;imageWidthRatio<=2;imageWidthRatio+=0.1){
 	for (double imageHeightRatio = 0.8;imageHeightRatio<=2.8;imageHeightRatio+=0.1) {
-		System.out.println(e.discernAndAutoCleanImage("images/d.jpg",ImageType.CAPTCHA_NORMAL,imageWidthRatio,imageHeightRatio));
+		System.out.println(e.recognizeAndAutoCleanImage("images/d.jpg",ImageType.CAPTCHA_NORMAL,imageWidthRatio,imageHeightRatio));
 	}
 }
 ```
@@ -98,25 +98,25 @@ EasyOCR ocr = new EasyOCR();
 System.out.println("###### 中文会议通知内容识别 ######");
 ocr.setAmendPath("amend_chi.txt"); // 中文识别修正
 ocr.setLanguage(Language.CHI_SIM); // 中文语言
-String res=ocr.discern("images/bank/notice.tif");
+String res=ocr.recognize("images/bank/notice.tif");
 System.out.println(res);
 
 System.out.println("###### 多语言混合识别 ######");
 ocr.setLanguage(Language.multiLanguage(Language.ENG,Language.CHI_SIM)); // 多语言识别
-String res2=ocr.discern("images/bank/bill2.tif");
+String res2=ocr.recognize("images/bank/bill2.tif");
 System.out.println(res2);
 
 System.out.println("###### 基于ETD模板的中文银行票据识别 ######");
 ocr.setLanguage(Language.CHI_SIM); // 中文识别
 ocr.setTextMode(TextMode.UNIFORM_TEXT); // 统一大小
-List<String> res3=ocr.discernByTemplate("images/bank/bill3.jpg", "images/bank/bill.etd", ImageType.BILL_NORMAL);
+List<String> res3=ocr.recognizeByTemplate("images/bank/bill3.jpg", "images/bank/bill.etd", ImageType.BILL_NORMAL);
 System.out.println(res3);
 
 System.out.println("###### 带图片的清理数字内容识别 ######");
 ocr.setLanguage(Language.ENG); // 英文识别
 ocr.setCharList("0123456789"); // 字符限定API
 ocr.setTextMode(TextMode.SINGLE_LINE_TEXT); // 单行文本识别
-String res4=ocr.discernAutoCleanImage("images/bank/example4.jpg",ImageType.TEXT_BOLD_BLAK);
+String res4=ocr.recognizeAutoCleanImage("images/bank/example4.jpg",ImageType.TEXT_BOLD_BLAK);
 System.out.println(res4);
 ```
 
@@ -242,4 +242,3 @@ Email：<inthinkcolor@gmail.com>
 We believe that the contribution of each bit by bit, will be driven to produce more and better free and open source products a big step.
 
 **Thank you donation to support the server running and encourage more community members.**
-
