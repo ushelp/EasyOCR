@@ -6,7 +6,7 @@ EasyOCR 是一个使用 Java 语言实现的 OCR 识别引擎（基于Tesseract�
 
 EasyOCR不仅可以为消费者提供服务，更主要面向开发，能够提供本地化的开发SDK集成，与 C/S，B/S 及 Android 移动端项目进行原生集成。
 
-EasyOCR 4.X 新架构上线，最新版本 4.2.0。
+EasyOCR 5.X 新架构上线，最新版本 5.1.0。
 
 
 
@@ -92,7 +92,7 @@ for(double imageWidthRatio=0.8;imageWidthRatio<=2;imageWidthRatio+=0.1){
 ```
 
 ### 3. API 使用Demo
-```
+```Java
 EasyOCR ocr = new EasyOCR();
 
 System.out.println("###### 中文会议通知内容识别 ######");
@@ -118,6 +118,33 @@ ocr.setCharList("0123456789"); // 字符限定API
 ocr.setTextMode(TextMode.SINGLE_LINE_TEXT); // 单行文本识别
 String res4=ocr.discernAutoCleanImage("images/bank/example4.jpg",ImageType.TEXT_BOLD_BLAK);
 System.out.println(res4);
+```
+
+- 自动检测文字区域
+
+```Java
+String filePath="./images/idcard.png";
+BufferedImage image = ImageIO.read(new File(filePath));
+
+// Find Text Regions
+List<TextRegion> regions = EasyOCR.findTextRegions(image,  10, 20, 70, 200);
+
+Graphics g = image.getGraphics();
+g.setColor(Color.RED);
+
+for (TextRegion r : regions) {
+//	if (r.x - 5 > 0) {
+//		r.x -= 5;
+//	}
+    if (r.height >= 5) {
+        r.y -= 5;
+        r.y2 += 5;
+        g.drawRect(r.x, r.y, r.x2 - r.x, r.y2 - r.y);
+        g.drawRect(r.x+1, r.y+1, (r.x-r.x)-2, (r.y2-r.y)-2);
+    }
+}
+
+ImageIO.write(image,filePath.substring(filePath.lastIndexOf('.')+1), new File("./images/idcard_2.png"));
 ```
 
 ### 4. 当前枚举的验证码列表
