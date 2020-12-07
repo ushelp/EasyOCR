@@ -7,7 +7,7 @@ EasyOCR is a Java language using OCR recognition engine (based Tesseract). By me
 
 EasyOCR not only provide services for consumers, but mainly oriented to provide localized development SDK integration with C / S, B / S and Android mobile terminal native integration projects.
 
-EasyOCR 4.X new architecture on the line, the latest version 4.2.0.
+EasyOCR 5.X new architecture on the line, the latest version 5.1.0.
 
 
 ## Main feature
@@ -92,7 +92,7 @@ for(double imageWidthRatio=0.8;imageWidthRatio<=2;imageWidthRatio+=0.1){
 ```
 
 ### 3. API Use Demo
-```
+```Java
 EasyOCR ocr = new EasyOCR();
 
 System.out.println("###### Chinese meeting notice Content recognition ######");
@@ -118,6 +118,33 @@ ocr.setCharList("0123456789"); // Char whitelist
 ocr.setTextMode(TextMode.SINGLE_LINE_TEXT); // Single line text
 String res4=ocr.discernAutoCleanImage("images/bank/example4.jpg",ImageType.TEXT_BOLD_BLAK);
 System.out.println(res4);
+```
+
+- Auto detect text regions
+
+```Java
+String filePath="./images/idcard.png";
+BufferedImage image = ImageIO.read(new File(filePath));
+
+// Find Text Regions
+List<TextRegion> regions = EasyOCR.findTextRegions(image,  10, 20, 70, 200);
+
+Graphics g = image.getGraphics();
+g.setColor(Color.RED);
+
+for (TextRegion r : regions) {
+//	if (r.x - 5 > 0) {
+//		r.x -= 5;
+//	}
+    if (r.height >= 5) {
+        r.y -= 5;
+        r.y2 += 5;
+        g.drawRect(r.x, r.y, r.x2 - r.x, r.y2 - r.y);
+        g.drawRect(r.x+1, r.y+1, (r.x-r.x)-2, (r.y2-r.y)-2);
+    }
+}
+
+ImageIO.write(image,filePath.substring(filePath.lastIndexOf('.')+1), new File("./images/idcard_2.png"));
 ```
 
 ### 4. CAPTCHA list of current enumeration
