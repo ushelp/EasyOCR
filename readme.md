@@ -2,8 +2,11 @@
 
 ---------------
 
-**Note: After 4.X, EasyOCR is no longer open source. We will change our plan in the future.**
+**Note: After 4.X, EasyOCR is no longer open source.**
 
+I am sorry for the users who support open source, because in addition to the open source spirit of selfless devotion, commercial support is also a major driving force for technological advancement. Thank you for your understanding. If you need to communicate, we can still provide corresponding assistance. The vision is to love open source and the joy of giving, we will also provide more other open source projects to promote community progress.
+
+BTW. Maybe we will reopen the source code in the future, depending on the factors that drive us. Therefore, we currently keep this repo.
 
 ---------------
 
