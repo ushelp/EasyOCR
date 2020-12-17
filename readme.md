@@ -1,4 +1,7 @@
 # EasyOCR 
+---------------
+
+Latest update: The 5.X version will be open sourced for free before February 2021.
 
 ---------------
 
